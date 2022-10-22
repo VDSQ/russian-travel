@@ -1,0 +1,11 @@
+.page {
+    max-width: 1280px;
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #2A2C2F;
+    color: #fff;
+    text-rendering: optimizeLegibility;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    overflow-x: hidden;
+}
