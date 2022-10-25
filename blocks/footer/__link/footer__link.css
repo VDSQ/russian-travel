@@ -1,16 +1,16 @@
 .footer__link {
     color: #fff;
     text-decoration: none;
-    font-family: 'Inter-Regular';
     font-size: 16px;
     line-height: 18px;
 }
 
 .footer__link:hover {
     opacity: 0.8;
+    transition: opacity 0.6s;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 768px) {
     .footer__link {
         font-size: 24px;
         line-height: 24px;

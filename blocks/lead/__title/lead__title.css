@@ -6,28 +6,18 @@
     line-height: 100px;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
     .lead__title {
-        max-width: 90%;
-        font-size: 70px;
+        padding: 0 24px;
+        font-size: 56px;
+        line-height: 58px;
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 448px) {
     .lead__title {
-        font-size: 55px;
-        line-height: 60px;
-    }
-}
-
-@media screen and (max-width: 440px) {
-    .lead__title {
+        padding: 0 16px;
         font-size: 40px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .lead__title {
         line-height: 44px;
     }
 }

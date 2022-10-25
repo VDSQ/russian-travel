@@ -1,0 +1,28 @@
+.cover__background-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cover__background-link:before {
+    content: "";
+    position: absolute;
+    align-self: start;
+    width: 100%;
+    height: 100%;
+    background: #2a2c2f;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.cover__background-link:hover::before {
+    opacity: 0.8;
+    transition: opacity 0.5s ease-in;
+}

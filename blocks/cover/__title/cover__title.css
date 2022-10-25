@@ -3,10 +3,12 @@
     font-family: 'Inter-Black';
     font-size: 72px;
     line-height: 76px;
+    z-index: 2;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 768px) {
     .cover__title {
+        max-width: 288px;
         font-size: 32px;
         line-height: 35px;
     }
