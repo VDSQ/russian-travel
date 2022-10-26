@@ -1,7 +1,7 @@
 .intro__title {
-    font-family: 'Inter-Black';
     font-size: 54px;
     line-height: 58px;
+    font-weight: 900;
 }
 
 @media screen and (max-width: 768px) {
