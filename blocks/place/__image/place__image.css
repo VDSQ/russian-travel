@@ -1,5 +1,18 @@
 .place__image {
     width: 100%;
-    margin: 0 auto;
-    padding: 0;
+    height: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .place__image {
+        width: 464px;
+        height: 464px;
+    }
+}
+
+@media screen and (max-width: 511px) {
+    .place__image {
+        width: 320px;
+        height: 320px;
+    }
 }

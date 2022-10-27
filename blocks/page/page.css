@@ -1,8 +1,11 @@
 .page {
+    width: 100%;
     min-width: 320px;
     padding: 28px 0 24px;
     background-color: #2A2C2F;
-    color: #fff;
     text-rendering: optimizeLegibility;
     font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 400;
+    font-size: normal;
+    color: #fff;
 }
