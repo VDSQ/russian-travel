@@ -1,3 +1,9 @@
 .page__lead {
-    margin: 48px 0 0;
+    margin-top: -44px;
+}
+
+@media screen and (max-width: 767px) {
+    .page__lead {
+        gap: -16px;
+    }
 }
