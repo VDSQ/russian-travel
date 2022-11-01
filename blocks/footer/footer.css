@@ -4,6 +4,7 @@
     align-items: baseline;
     max-width: 1184px;
     width: 100%;
+    margin-top: 92px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -15,6 +16,7 @@
 @media screen and (max-width: 1023px) {
     .footer {
         max-width: 720px;
+        margin-top: 88px;
     }
 }
 
@@ -23,6 +25,7 @@
         flex-direction: column;
         gap: 48px;
         max-width: 464px;
+        margin-top: 64px;
     }
 }
 
